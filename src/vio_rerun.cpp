@@ -460,7 +460,7 @@ int main() {
         rec.log("world/camera/image",
                 rerun::Pinhole::from_focal_length_and_resolution({480.0, 480.0},
                                                                  {752.0, 480.0})
-                    .with_camera_xyz(rerun::components::ViewCoordinates::RUB));
+                    .with_camera_xyz(rerun::components::ViewCoordinates::RDF));
       }
 
       std::vector<basalt::ImageData> img_vec =
